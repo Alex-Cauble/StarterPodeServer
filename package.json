@@ -1,0 +1,14 @@
+{
+  "author": "alex.cauble",
+  "scripts": {
+    "build": "psake",
+    "install": "yarn install --force --ignore-scripts --modules-folder pode_modules",
+    "start": "./server.ps1",
+    "test": "invoke-pester ./tests/*.ps1"
+  },
+  "description": "",
+  "name": "testpode",
+  "license": "MIT",
+  "main": "./server.ps1",
+  "version": "1.0.0"
+}
